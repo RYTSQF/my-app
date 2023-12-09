@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to top left, #000435, #0077cc);
+}
+
+.contentcard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customcard1,
+.customcard2,
+.customcard3,
+.customcard4 {
+  width: 25rem;
+  margin: 10px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  border-radius: 15px;
+}
+
+.customcard {
+  width: 100%;
+  height: auto;
+}
+
+.customcard:hover {
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cardimage {
+  border-radius: 15px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64vh; ;
+}
+
+.dallasnews {
+  margin-top: 64px;
+  margin-left: 128px;
+  color: aliceblue;
+}
+
+.dallasnews {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dallasnews h2 {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.dallasnews h3 {
+  font-size: 18px;
+  font-weight: bold;
+}

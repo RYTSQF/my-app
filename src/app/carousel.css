@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .carousel-wrapper {
+    width: 50%; /* Sesuaikan lebar sesuai kebutuhan */
+    height: 50vh; /* Sesuaikan tinggi sesuai dengan lebar untuk mendapatkan rasio 1:2 */
+  }
